@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PangramCheckerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-04-28T13:11:15" hostname="cft746.cinnober.com" time="0.028">
+  <properties/>
+  <testcase name="pangramWithMixedCaseAndPunctuationIsRecognizedAsPangram" classname="PangramCheckerTest" time="0.016"/>
+  <testcase name="pangramWithNumbersIsRecognizedAsPangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="phraseMissingCharacterXIsNotPangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="pangramWithUnderscoresIsRecognizedAsPangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="upperAndLowerCaseVersionsOfTheSameCharacterShouldNotBeCountedSeparately" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="pangramWithOnlyLowerCaseLettersIsRecognizedAsPangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="phraseWithMissingLettersReplacedByNumbersIsNotPangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="anotherPhraseMissingCharacterXIsNotPangram" classname="PangramCheckerTest" time="0.001"/>
+  <testcase name="emptySentenceIsNotPangram" classname="PangramCheckerTest" time="0.0"/>
+  <system-out><![CDATA[abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwyz
+abcdefghijklmnopqrstuvwxyz
+abcefhijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+abcdfghjklmnopqrsuvwxyz
+abcdefghijklmnopqrstuvwyz
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
