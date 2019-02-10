@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ArmstrongNumbersTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-05-19T07:33:31" hostname="cft1005.cinnober.com" time="0.009">
+<testsuite name="ArmstrongNumbersTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-02-10T12:29:05" hostname="blandings.lan" time="0.021">
   <properties/>
-  <testcase name="threeDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.004"/>
-  <testcase name="sevenDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.001"/>
+  <testcase name="threeDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.016"/>
+  <testcase name="sevenDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.0"/>
   <testcase name="noTwoDigitArmstrongNumbers" classname="ArmstrongNumbersTest" time="0.001"/>
   <testcase name="singleDigitsAreArmstrongNumbers" classname="ArmstrongNumbersTest" time="0.0"/>
-  <testcase name="sevenDigitNumberIsArmstrongNumber" classname="ArmstrongNumbersTest" time="0.001"/>
-  <testcase name="fourDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.0"/>
-  <testcase name="fourDigitNumberIsArmstrongNumber" classname="ArmstrongNumbersTest" time="0.0"/>
-  <testcase name="threeDigitNumberIsArmstrongNumber" classname="ArmstrongNumbersTest" time="0.001"/>
+  <testcase name="sevenDigitNumberIsArmstrongNumber" classname="ArmstrongNumbersTest" time="0.0"/>
+  <testcase name="fourDigitNumberIsNotArmstrongNumber" classname="ArmstrongNumbersTest" time="0.001"/>
+  <testcase name="fourDigitNumberIsArmstrongNumber" classname="ArmstrongNumbersTest" time="0.001"/>
+  <testcase name="threeDigitNumberIsArmstrongNumber" classname="ArmstrongNumbersTest" time="0.0"/>
   <system-out><![CDATA[100
 9926314
 10
